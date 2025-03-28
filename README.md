@@ -17,6 +17,7 @@ Pytorch를 이용하여 오디오 분류 모델인 AclNet을 구현. <br/>
 ## 결과
 - Train Dataset 정확도 : 98.75%
 - Test Dataset 정확도 : 83.75%
+- 논문에서 제시하는 정확도 결과와 유사
 - [jupyter notebook](https://github.com/HwanWoongLee/Pytorch_AclNet_AudioClassification/blob/main/AclNet_test.ipynb)
 
 <br/>
