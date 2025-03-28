@@ -14,6 +14,23 @@ Pytorch를 이용하여 오디오 분류 모델인 AclNet을 구현. <br/>
 
 <br/>
 
+## Docker
+Docker image build
+<pre>
+<code>
+docker build --no-cache -t aclnet .
+</code>
+</pre>
+
+Docker image run
+<pre>
+<code>
+docker run -it --gpus all -v {AclNet_AudioClassification 경로}:/workspace --name my_aclnet aclnet:latest /bin/bash
+</code>
+</pre>
+
+<br/>
+
 ## 결과
 - Train Dataset 정확도 : 98.75%
 - Test Dataset 정확도 : 83.75%
